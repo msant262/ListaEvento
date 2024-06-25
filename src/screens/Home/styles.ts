@@ -3,14 +3,23 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#131016',
+        backgroundColor: '#1a1a1a',
         padding: 24
     },
+    textAlign: {
+      alignItems: 'center'
+    },
     eventName: {
-      color: '#FFF',
-      fontSize: 24,
+      color: '#4EA8DE',
+      alignItems: 'center',
+      fontSize: 40,
       fontWeight: 'bold',
-      marginTop: 48
+      marginTop: 48,
+    },
+    eventName2: {
+      color: '#5E60CE',
+      fontSize: 40,
+      fontWeight: 'bold',
     },
     eventDate:{
       color: '#6b6b6b',
@@ -34,7 +43,7 @@ export const styles = StyleSheet.create({
       width: 56,
       height: 56,
       borderRadius: 5,
-      backgroundColor: '#31cf67',
+      backgroundColor: '#4EA8DE',
       alignItems: 'center',
       justifyContent: 'center'
     },
@@ -42,11 +51,36 @@ export const styles = StyleSheet.create({
       width: '100%',
       flexDirection: 'row',
       marginTop: 36,
-      marginBottom: 42
+    },
+    form2:{
+      width: '100%',
+      flexDirection: 'row',
+      marginTop: 30,
+      marginBottom: 2,
     },
     listEmptyText:{
-      color: '#FFF',
+      color: '#808080',
       fontSize: 16,
-      textAlign: 'center'
-    }
+      textAlign: 'center',
+      fontWeight: 'bold',
+      marginTop: 20
+    },
+    listEmptyText2:{
+      color: '#808080',
+      fontSize: 16,
+      textAlign: 'center',
+    },
+    textCriada:{
+      color: '#4EA8DE',
+      fontSize: 14,
+      flex:1
+    },
+    textConcluida:{
+      color: '#5E60CE',
+      fontSize: 14
+    },
+    textsCenter:{
+      alignItems: 'center',
+      marginTop: 50
+    },
   });
